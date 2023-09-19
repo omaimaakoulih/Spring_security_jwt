@@ -118,4 +118,8 @@ public class User implements UserDetails {
     public String getPassword() {
         return password;
     }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 }
